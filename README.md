@@ -1,6 +1,6 @@
-# WDI 25
+# WDI 27
 
-![gras](https://media.giphy.com/media/xT0xeqBr9yUALkFWJq/giphy.gif)
+![gras](https://media.giphy.com/media/26gJALIRlvPcw9sxq/giphy.gif)
 
 Welcome!
 

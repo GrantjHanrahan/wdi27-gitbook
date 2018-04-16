@@ -17,7 +17,7 @@ ___
 
 **Luke Hammer** - Lead Instructor - [luke.hammer@ga.co](mailto:luke.hammer@ga.co) (Twitter: [@textchimp](https://twitter.com/textchimp))
 
-**Michelle Lo** - Instructional Assistant / Teaching Assistant - [michelle.lo@ga.co](mailto:michelle.lo@ga.co)
+**Grant Hanrahan** - Instructional Assistant / Teaching Assistant - [grant.hanrahan@ga.co](mailto:grant.hanrahan@ga.co)
 
 **Hayley Petrov** - Education Programs Producer - [hayley.petrov@ga.co](mailto:hayley.petrov@ga.co)
 
