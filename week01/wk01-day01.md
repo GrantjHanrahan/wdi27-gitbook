@@ -25,8 +25,9 @@ ___
 
 **Mikaela Squirchuk** - Education Programs Manager - [mikaela@ga.co](mailto:mikaela@ga.co)
 
-**Lucy Barnes** - Outcomes Producer - [lucy.barnes@ga.co](mailto:lucy.barnes@ga.co)
+**Lara Blumberg** - Outcomes Producer - [lara.blumberg@ga.co](mailto:lara.blumberg@ga.co)
 
+lara.blumberg@ga.co
 **Charlotte Messervy** - Outcomes Producer - [charlotte.messervy@ga.co](mailto:charlotte.messervy@ga.co)
 
 The GA campus is typically open from 8.45am to 9pm on weekdays and from 9am to 4pm on Saturdays. The campus is closed on Sundays and public holidays.
