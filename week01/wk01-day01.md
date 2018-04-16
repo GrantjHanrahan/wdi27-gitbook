@@ -10,7 +10,7 @@ What we covered today:
 
 
 ___
-[Intro slides](https://textchimp.github.io/wdi-25/week1/slides/intro/index.html#/)
+[Intro slides](https://textchimp.github.io/wdi-27/week1/slides/intro)
 ___
 
 ### Introduction | Orientation | Housekeeping
