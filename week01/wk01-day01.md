@@ -37,20 +37,18 @@ ___
 
 You guys came up with these rules for the next 12 weeks:
 
-- Don't compare
-- Stay weird
-- Late drinks / sorry snacks (OR dont be late)
-- Daily showers
-- Work collaboratively
-- Share your wins & fails
-- Keep your sense of humour
-- Share photos of cooking disasters
-- Luke / Mish GIF(T)s
-- Embrace photoshop
-- Be respectful
-- No stinky food
-- Group synergy
-- Make mistakes
+- Have fun
+- Arrive Loud, Leave Loud
+- Work hard and smart
+- No broken fingers
+- No questions are stupid
+- Give yourself a break
+- Don't be too hard on yourself
+- Be Respectful
+- Bathe Daily
+- Be here by 9:00am
+- Clean up after yourself
+- If sick, bring in a medical certificate
 
 #### Geek / Hacker Culture
 
@@ -67,9 +65,9 @@ Share and enjoy:
 
 #### GitBook, Homework Repository, Code-Along Repository
 
-- **[GitBook](https://michelleerica.gitbooks.io/wdi-25/content/)** - You're reading it right now. At the end of each day, I will update this GitBook to include notes for the day's lessons.
-- **[Homework Repo](https://github.com/michelleerica/wdi25-homework)** - Before class every morning, you should submit your homework for the last day using Github. The repository ("repo") has instructions for submitting your homework.
-- **[Classwork Repo](https://github.com/textchimp/wdi-25)** - Missed something during a code-along? You can check this repository for the 'official' code.
+- **[GitBook](https://granthanrahan.gitbook.io/wdi27/)** - You're reading it right now. At the end of each day, I will update this GitBook to include notes for the day's lessons.
+- **[Homework Repo](https://github.com/GrantjHanrahan/wdi27-homework)** - Before class every morning, you should submit your homework for the last day using Github. The repository ("repo") has instructions for submitting your homework.
+- **[Classwork Repo](https://github.com/textchimp/wdi-27)** - Missed something during a code-along? You can check this repository for the 'official' code.
 
 #### Important Links, Meetups and Newsletters
 
