@@ -9,7 +9,12 @@
         - Structure of the Course
         - Introduction to the Command Line
         - The Command Line Murder Mystery
-
+    - [Day 02](week01/wk01-day02.md)
+        - Javascript - Introduction to Javascript
+        - Javascript - Data Types
+        - Javascript - Functions
+        - Git - Intro to Git
+            - Guest speaker: Meggan Turner 🐕.
 
   ## Modules
 

@@ -8,7 +8,7 @@ Welcome!
 
 * [Week 01](week01/wk01-summary.md)
     - [Day 01](week01/wk01-day01.md)
-
+    - [Day 02](week01/wk01-day02.md)
 
 ## Modules
 
