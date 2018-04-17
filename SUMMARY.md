@@ -10,7 +10,7 @@
         - Introduction to the Command Line
         - The Command Line Murder Mystery
     - [Day 02](week01/wk01-day02.md)
-        - [Javascript - Introduction to Javascript](week-01/day-02#javascript-introduction-to-javascript.md)
+        Javascript - Introduction to Javascript
         - Javascript - Data Types
         - Javascript - Functions
         - Intro to Git
