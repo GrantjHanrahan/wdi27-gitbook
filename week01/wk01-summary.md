@@ -11,3 +11,7 @@
     - Javascript - Introduction to Javascript
     - Javascript - Data Types
     - Javascript - Functions
+- [Day 03](wk01-day03.md)
+    - Github - homework
+    - Javascript - Arrays
+    - Javascript - Loops

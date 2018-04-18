@@ -15,6 +15,10 @@
         - Javascript - Functions
         - Intro to Git
             - Guest speaker: Meggan Turner 🐕.
+    - [Day 03](week01/wk01-day03.md)
+        - Github - homework
+        - Javascript - Arrays
+        - Javascript - Loops
 
   ## Modules
 
