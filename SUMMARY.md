@@ -1,4 +1,4 @@
-# WDI-25
+# WDI-27
 
 ### Daily Stuff
 
@@ -19,6 +19,8 @@
         - Github - homework
         - Javascript - Arrays
         - Javascript - Loops
+    - [Day 04](week01/wk01-day04.md)
+        - JavaScript - Objects
 
   ## Modules
 

@@ -15,3 +15,5 @@
     - Github - homework
     - Javascript - Arrays
     - Javascript - Loops
+- [Day 04](wk01-day04.md)
+    - JavaScript - Objects
