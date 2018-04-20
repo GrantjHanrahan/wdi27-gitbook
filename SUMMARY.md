@@ -21,6 +21,10 @@
         - Javascript - Loops
     - [Day 04](week01/wk01-day04.md)
         - JavaScript - Objects
+    - [Day 05](week01/wk01-day05.md)
+        - The `this` Keyword
+        - The `arguments` Object
+        - Factories and Constructors
 
   ## Modules
 

@@ -17,3 +17,9 @@
     - Javascript - Loops
 - [Day 04](wk01-day04.md)
     - JavaScript - Objects
+- [Day 05](wk01-day05.md)
+    <!-- - Javascript - Scope -->
+    <!-- - JavaScript - Advanced Functions -->
+    - The `this` Keyword
+    - The `arguments` Object
+    - Factories and Constructors
