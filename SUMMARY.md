@@ -26,6 +26,11 @@
         - The `arguments` Object
         - Factories and Constructors
 
+* [Week 02](week_02/wk02_summary.md)
+    - [Day 01](week_02/wk02_day01.md)
+        - HTML
+        - CSS
+
   ## Modules
 
   * [Git Repository Setup](modules/git_setup.md)

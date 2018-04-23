@@ -13,6 +13,9 @@ Welcome!
     - [Day 04](week01/wk01-day04.md)
     - [Day 05](week01/wk01-day05.md)
 
+* [Week 02](week_02/wk02_summary.md)
+    - [Day 01](week_02/wk02_day01.md)
+
 ## Modules
 
 * [Git Repository Setup](modules/git_setup.md)
