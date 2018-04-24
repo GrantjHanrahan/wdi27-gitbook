@@ -35,9 +35,6 @@ The CSS visual formatting model is the set of rules used to process and render d
   <img src="https://i.imgur.com/DSi2s3A.png" />
 </div>
 
-- [Class demo](https://github.com/wofockham/wdi-24/tree/master/02-html%2Bcss/box-model)
-
-
 Every HTML element generates a rectangular box. The 'box model' defines these boxes, their properties and how they are laid out according to the 'visual formatting model'.
 
 The core box-model CSS properties are: size (`height` `width`), `margin`, `padding`, `border` and `box-sizing`.
