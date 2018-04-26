@@ -13,8 +13,7 @@ What we covered today:
 
 ___
 #### Slides
-- [The DOM, events, selectors,
-timers and callbacks](https://slack-files.com/files-pri-safe/T0351JZQ0-FADHW6EUV/javascript-and-html.pdf?c=1524725103-2103b142e47284b35dd956c1ef015bfcccddd2bc)
+- [The DOM, events, selectors, timers and callbacks](https://slack-files.com/files-pri-safe/T0351JZQ0-FADHW6EUV/javascript-and-html.pdf?c=1524725103-2103b142e47284b35dd956c1ef015bfcccddd2bc)
 
 <!--
 
