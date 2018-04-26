@@ -40,6 +40,16 @@
           - Google Fonts
           - Font Awesome
           - Custom Fonts
+    - [Day 03](week_02/wk02_day03.md)
+         - JavaScript - The Document Object Model (DOM)
+           + Accessing Elements (Selection)
+           + Manipulating Elements
+           + Creating Elements
+           + Events
+         - JavaScript - Animation
+           + Timers
+           + Callbacks
+         - Emmet
 
   ## Modules
 
