@@ -23,3 +23,12 @@
     - Timers
     - Callbacks
   - Emmet
+- [Day 04](wk02_day04.md)
+  - JavaScript - Libraries
+  - JavaScript - jQuery - Introduction
+  - JavaScript - jQuery - Events
+  - JavaScript - jQuery - Animation and Effects
+  - JavaScript - jQuery - Events
+  - JavaScript - jQuery - Animation and Effects
+  - JavaScript - jQuery - Patterns and Anti-patterns
+  - JavaScript - jQuery - Plugins
