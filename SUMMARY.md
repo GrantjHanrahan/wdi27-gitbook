@@ -50,7 +50,7 @@
            + Timers
            + Callbacks
          - Emmet
-     - [Day 04](week_02/wk02_day04.md)
+    - [Day 04](week_02/wk02_day04.md)
           - JavaScript - Libraries
           - JavaScript - jQuery - Introduction
           - JavaScript - jQuery - Events
