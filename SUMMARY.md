@@ -59,6 +59,21 @@
           - JavaScript - jQuery - Patterns and Anti-patterns
           - JavaScript - jQuery - Plugins
 
+* [Week 04](week_04/wk04_summary.md) -  Ruby, Web Servers, Sinatra, SQL, CRUD, Active Record, Object Oriented Programming
+    - [Day 01](week_04/wk04_day01.md)
+        - RVM and Ruby Installation
+        - Ruby - A Brief History of Ruby
+        - Ruby - Introduction
+            + Data Types
+              - Strings and Numbers
+            + Operators
+            + Variables
+            + Methods
+            + Ruby Basics
+            + Conditionals
+            + Control Structures
+        - Ruby - Methods
+
   ## Modules
 
   * [Git Repository Setup](modules/git_setup.md)
