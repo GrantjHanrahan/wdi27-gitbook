@@ -78,6 +78,9 @@
           + Arrays
           + Hashes
         - Ruby Basics Part II
+    - [Day 03](week_04/wk04_day03.md)
+        - Web Servers
+        - Sinatra
 
   ## Modules
 

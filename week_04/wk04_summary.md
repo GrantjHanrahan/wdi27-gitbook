@@ -18,3 +18,6 @@
       + Arrays
       + Hashes
     - Ruby Basics Part II
+- [Day 03](wk04_day03.md)
+    - Web Servers
+    - Sinatra
