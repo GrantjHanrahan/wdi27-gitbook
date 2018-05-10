@@ -21,3 +21,6 @@
 - [Day 03](wk04_day03.md)
     - Web Servers
     - Sinatra
+- [Day 04](wk04_day04.md)
+    - SQL (Structured Query Language)
+    - Sinatra - CRUD with SQL

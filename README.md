@@ -23,6 +23,7 @@ Welcome!
     - [Day 01](week_04/wk04_day01.md)
     - [Day 02](week_04/wk04_day02.md)
     - [Day 03](week_04/wk04_day03.md)
+    - [Day 04](week_04/wk04_day04.md)
 
 ## Modules
 
