@@ -6,7 +6,7 @@ What we covered today:
 
 ### Slides
 
-[File I/O and Databases](https://slack-files.com/files-pri-safe/T0351JZQ0-FALMNLFJM/files-and-databases.pdf?c=1525925807-4250b84a4b6dc75d1129b54fef8f731bdfdf295b)
+[File I/O and Databases](https://slack-files.com/files-pri-safe/T0351JZQ0-FALMNLFJM/files-and-databases.pdf?c=1525942772-4c99a5ef30803693854ecfa51ebc336c522eee34)
 
 ___
 #### Classwork
