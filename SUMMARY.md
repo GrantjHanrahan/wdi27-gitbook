@@ -91,7 +91,14 @@
         - Ruby - Variable Scope
         - Ruby - Class and Instance Methods
         - Active Record
-         
-  ## Modules
+
+* [Week 05](week_05/wk05_summary.md) - Ruby on Rails
+    - [Day 01](week_05/wk05_day01.md)
+        - Associations
+        - Ruby on Rails - Introduction
+        - Ruby on Rails - Basic Project Setup (no database)
+        - Ruby on Rails - Intro to Project Setup (with database)
+
+## Modules
 
   * [Git Repository Setup](modules/git_setup.md)
