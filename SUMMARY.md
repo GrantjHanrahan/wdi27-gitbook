@@ -104,7 +104,8 @@
         - Ruby on Rails - Rails in the Terminal
         - Ruby on Rails - Basic Project Setup (with database)
         - Ruby on Rails - Migrations
-
+    - [Day 03](week_05/wk05_day03.md)
+        - Ruby on Rails - Associations
 
 ## Modules
 
