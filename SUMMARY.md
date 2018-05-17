@@ -106,6 +106,12 @@
         - Ruby on Rails - Migrations
     - [Day 03](week_05/wk05_day03.md)
         - Ruby on Rails - Associations
+    - [Day 04](week_05/wk05_day04.md)
+        - PostgreSQL - Install
+        - Ruby on Rails - User login:
+          - Ruby on Rails - Authentication
+          - Ruby on Rails - Sessions
+          - Ruby on Rails - Validations
 
 ## Modules
 

@@ -11,3 +11,8 @@
     - Ruby on Rails - Basic Project Setup (with database)
 - [Day 03](wk05_day03.md)
     - Ruby on Rails - Associations
+- [Day 04](wk05_day04.md)
+    - PostgreSQL - Install
+    - Ruby on Rails - Authentication
+    - Ruby on Rails - Sessions
+    - Ruby on Rails - Validations
