@@ -3,7 +3,7 @@
 What we covered today:
 
 - PostgreSQL - Install
-- Ruby on Rails - [Associations cont'd](week_05/wk05_day03.md)
+- Ruby on Rails - [Associations cont'd](wk05_day03.md)
 - Ruby on Rails - User login:
   - Ruby on Rails - Authentication
   - Ruby on Rails - Authorisation
@@ -65,11 +65,6 @@ ____
   ```
 
 ___
-
-### Associations cont'd
-[See yesterday's notes](week_05/wk05_day03.md)
-___
-
 
 ### Authentication
 
