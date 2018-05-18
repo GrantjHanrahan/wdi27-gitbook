@@ -16,3 +16,6 @@
     - Ruby on Rails - Authentication
     - Ruby on Rails - Sessions
     - Ruby on Rails - Validations
+- [Day 05](wk05_day05.md)
+    - Ruby on Rails - Authentication and Authorisation cont'd
+    - Project 1 commenced
