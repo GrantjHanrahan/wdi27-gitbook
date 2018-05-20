@@ -14,5 +14,3 @@ ____
 #### Classwork
 
 - [Tunr Cont'd](https://github.com/textchimp/wdi-27/tree/master/week5/tunr-wdi27)
-
-____
