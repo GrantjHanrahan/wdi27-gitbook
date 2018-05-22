@@ -4,7 +4,7 @@
 
 #### Codealong
 
-- [milodemo](https://github.com/michelleerica/milodemo)
+- [grantdemo](https://github.com/GrantjHanrahan/cloudinary-demo)
 ___
 
 ### What is it?
