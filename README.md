@@ -36,3 +36,5 @@ Welcome!
 ## Modules
 
 * [Git Repository Setup](modules/git_setup.md)
+* [Heroku](modules/heroku.md)
+* [Cloudinary](modules/cloudinary.md)
