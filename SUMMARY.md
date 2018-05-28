@@ -113,6 +113,12 @@
           - Ruby on Rails - Sessions
           - Ruby on Rails - Validations
 
+* [Week 07](week_07/wk07_summary.md) - Advanced Frontend
+    - [Day 01](week_07/wk07_day01.md)
+        - Ruby - Test Driven Development (TDD)
+        - JavaScript - Callbacks Interlude
+        - JavaScript - AJAX and XHR
+
 ## Modules
 
   * [Git Repository Setup](modules/git_setup.md)
