@@ -34,6 +34,8 @@ Welcome!
 
 * [Week 07](week_07/wk07_summary.md)
     - [Day 01](week_07/wk07_day01.md)
+    - [Day 02](week_07/wk07_day02.md)
+
 
 ## Modules
 

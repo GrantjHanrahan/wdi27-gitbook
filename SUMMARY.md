@@ -118,6 +118,9 @@
         - Ruby - Test Driven Development (TDD)
         - JavaScript - Callbacks Interlude
         - JavaScript - AJAX and XHR
+    - [Day 02](week_07/wk07_day02.md)
+        - JavaScript - The jQuery way
+        - JavaScript - Same Origin Policy
 
 ## Modules
 
