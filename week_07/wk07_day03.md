@@ -1,4 +1,4 @@
-## Week 07, Day 04
+## Week 07, Day 03
 
 What we covered today:
   - Underscore
@@ -7,8 +7,8 @@ What we covered today:
 ___
 
 #### Codealongs
-- [Underscore](https://)
-- [Flickr](https://)
+- [Underscore](https://github.com/textchimp/wdi-27/tree/master/week7/underscore-intro)
+- [Flickr](https://github.com/textchimp/wdi-27/tree/master/week7/flickr-search)
 
 
 ### JavaScript - Underscore
