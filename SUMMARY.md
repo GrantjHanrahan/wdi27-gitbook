@@ -121,6 +121,9 @@
     - [Day 02](week_07/wk07_day02.md)
         - JavaScript - The jQuery way
         - JavaScript - Same Origin Policy
+    - [Day 03](week_07/wk07_day03.md)
+        - Javascript - Underscore
+        - Javascript - Ajax / jQuery (Flickr)
 
 ## Modules
 
