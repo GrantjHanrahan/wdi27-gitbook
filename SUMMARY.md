@@ -121,9 +121,14 @@
     - [Day 02](week_07/wk07_day02.md)
         - JavaScript - The jQuery way
         - JavaScript - Same Origin Policy
+        - AJAX on Rails
     - [Day 03](week_07/wk07_day03.md)
         - Javascript - Underscore
         - Javascript - Ajax / jQuery (Flickr)
+    - [Day 04](week_07/wk07_day04.md)
+        - Transpilation Intro
+        - Frontend Frameworks:
+          - Vue.js intro
 
 ## Modules
 
