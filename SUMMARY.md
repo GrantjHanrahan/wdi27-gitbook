@@ -134,6 +134,11 @@
           - Components
           - Props
           - Events
+* [Week 08](week_08/wk08_summary.md) - Advanced Frontend
+    - [Day 01](week_08/wk08_day01.md)
+      - React Flickr Search
+      - React Routing
+
 
 ## Modules
 
