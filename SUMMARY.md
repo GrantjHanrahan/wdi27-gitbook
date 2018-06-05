@@ -138,6 +138,9 @@
     - [Day 01](week_08/wk08_day01.md)
       - React Flickr Search
       - React Routing
+    - [Day 02](week_08/wk08_day02.md)
+      - React frontend / Rails backend
+      - Burning Airlines
 
 
 ## Modules
