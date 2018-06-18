@@ -28,7 +28,7 @@ Make a new rails project and cd into it.
 rails new ba-rails-backend --skip-spring --skip-turbolinks --skip-git -d postgresql -T
 ```
 
-Create the airplane, flight, user and reservation models;
+Create the models;
 
 `rails g model airplane name:string rows:integer cols:integer`
 `rails g model Flight flight_number:integer departure_date:datetime origin:string destination:string airplane_id:integer`
@@ -141,7 +141,7 @@ Without this you will recieve a CORS error/ blocked request - http://www.blog.bd
 
 ___
 
-Time to create the Frontend in Vue
+##### Time to create the Frontend in Vue
 
 Vue CLI: Vue provides an official CLI for quickly scaffolding ambitious Single Page Applications. It provides batteries-included build setups for a modern frontend workflow. It takes only a few minutes to get up and running with hot-reload, lint-on-save, and production-ready builds - https://vuejs.org/v2/guide/installation.html
 
@@ -206,7 +206,7 @@ Your application is running here: http://localhost:8080
 ```
 ___
 
-Further Reading:
+##### Further Reading:
 
 - [Vue Intro](https://vuejs.org/v2/guide/index.html)
 - [Vue Components](https://vuejs.org/v2/guide/components.html)
