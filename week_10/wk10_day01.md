@@ -18,11 +18,15 @@ ___
 
 Create a directory where you want to store your application.
 
-`mkdir ba-vue`
+```bash
+mkdir ba-vue
+```
 
 Make a new rails project and cd into it.
 
-`rails new ba-rails-backend --skip-spring --skip-turbolinks --skip-git -d postgresql -T`
+```bash
+rails new ba-rails-backend --skip-spring --skip-turbolinks --skip-git -d postgresql -T
+```
 
 Create the airplane, flight, user and reservation models;
 
