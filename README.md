@@ -43,6 +43,8 @@ Welcome!
     - [Day 01](week_08/wk08_day01.md)
     - [Day 02](week_08/wk08_day02.md)
 
+* [Week 10](week_10/wk010_summary.md)
+    - [Day 01](week_10/wk10_day01.md)
 
 ## Modules
 
