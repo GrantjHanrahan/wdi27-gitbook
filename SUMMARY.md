@@ -145,6 +145,8 @@
 * [Week 10](week_10/wk10_summary.md)
     - [Day 01](week_10/wk10_day01.md)
         - Burning Airlines in Vue.js
+    - [Day 02](week_10/wk10_day02.md)   
+        - Frontend Auth with JWT
 
 
 ## Modules
