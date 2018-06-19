@@ -101,6 +101,7 @@ def index
 end
 
 ```
+_Note: the authenticate_user method uses the current_user method. Overwriting current_user may cause unexpected behaviour._
 
 ### What is JSON Web Token?
 
@@ -191,6 +192,14 @@ Whenever the user wants to access a protected route or resource, the user agent 
 
 ```js
 Authorization: Bearer <token>
+
+// ./src/components/Login.vue
+
+// This header-setting line also appears in App.vue, but that's too late for
+// us here; it will already have run by the time we perform this login -
+// so we have to set the header again here
+axios.defaults.headers.common['Authorization'] = "Bearer "  + response.data.jwt;
+
 ```
 
 This can be, in certain cases, a stateless authorization mechanism. The server's protected routes will check for a valid JWT in the `Authorization` header, and if it's present, the user will be allowed to access protected resources. If the JWT contains the necessary data, the need to query the database for certain operations may be reduced, though this may not always be the case.
@@ -203,7 +212,10 @@ ___
 
 #### Homework
 
-- [TBA]
+- 1) Finish the JWT-based frontend authentication system for Burning Airlines by adding a `Login`/`Welcome, USER | Logout` nav item to the top of the page, and get seat reservations working with a real logged-in user by using `current_user`
+- 2) Keep working through `learnyounode` and bring in your questions/problems
+- 3) *PLAN YOUR YOUTEACH PRESENTATION!*
+- 4) Start thinking about Final Project ideas
 
 ##### Further Reading:
 
