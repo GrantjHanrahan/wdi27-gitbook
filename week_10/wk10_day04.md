@@ -5,13 +5,15 @@ What we covered today:
   - Rails TDD contd
   - NodeJS
 
-____
+___
+
 
 #### Warmup
 
 - [Collatz](https://github.com/GrantjHanrahan/wdi27-homework/tree/master/warmups/week10/day_04_collatz_js)
 
-____
+___
+
 #### Codealongs
 
 - [Fruitstore TDD](https://github.com/textchimp/wdi-27/tree/master/week10/fruitstore-tdd)
