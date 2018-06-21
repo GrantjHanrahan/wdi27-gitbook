@@ -8,3 +8,6 @@
   - p5
   - Rspec
   - Ruby on Rails - Testing
+- [Day 04](wk10_day04.md)
+  - Rails TDD contd
+  - Node.js
