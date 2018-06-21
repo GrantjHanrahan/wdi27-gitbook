@@ -2,7 +2,7 @@
 
 What we covered today:
 
-  - Rails TDD contd
+  - Rails TDD
   - NodeJS
 
 ___
