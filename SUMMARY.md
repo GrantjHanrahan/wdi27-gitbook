@@ -150,8 +150,8 @@
     - [Day 03](week_10/wk10_day03.md)
         - Rspec
         - Ruby on Rails - Testing
-    - [Day 04](week10/wk10_day04.md)
-        - Rails TDD contd
+    - [Day 04](week_10/wk10_day04.md)
+        - Rails TDD
         - Node.js
 
 
