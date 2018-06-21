@@ -2,6 +2,7 @@
 
 What we covered today:
 
+  - [Temporary Link](https://github.com/GrantjHanrahan/wdi27-gitbook/blob/07f7ed72b4e7ef3dc7a8d6068a3744983acdae82/week_10/wk10_day04.md)
   - Rails TDD
   - NodeJS
 
