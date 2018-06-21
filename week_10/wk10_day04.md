@@ -3,7 +3,7 @@
 What we covered today:
 
   - Rails TDD contd
-  - Node.js
+  - NodeJS
 
 ____
 
@@ -517,3 +517,188 @@ The package.json file defines the application dependencies and other information
   }
 }
 ```
+The dependencies include the express package and the package for our selected view engine (pug). In addition, we have the following packages that are useful in many web applications:
+
+- [body-parser](https://www.npmjs.com/package/body-parser): This parses the body portion of an incoming HTTP request and makes it easier to extract different parts of the contained information. For example, you can use this to read POST parameters.
+
+- [cookie-parser](https://www.npmjs.com/package/cookie-parser): Used to parse the cookie header and populate req.cookies (essentially provides a convenient method for accessing cookie information).
+
+- [debug](https://www.npmjs.com/package/debug): A tiny node debugging utility modelled after node core's debugging technique.
+
+- [morgan](https://www.npmjs.com/package/morgan): An HTTP request logger middleware for node.
+
+- [serve-favicon](https://www.npmjs.com/package/serve-favicon): Node middleware for serving a favicon (this is the icon used to represent the site inside the browser tab, bookmarks, etc.). The scripts section defines a "start" script, which is what we are invoking when we call npm start to start the server. From the script definition you can see that this actually starts the JavaScript file ./bin/www with node. It also defines a "devstart" script, which we invoke when calling npm run devstart instead. This starts the same ./bin/www file, but with nodemon rather than node.
+
+```js
+"scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+```
+
+#### _www file_
+
+The file /bin/www is the application entry point! The very first thing this does is require() the "real" application entry point (app.js, in the project root) that sets up and returns the express() application object.
+
+```js
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require('../app');
+```
+
+- Note: require() is a global node function that is used to import modules into the current file. Here we specify app.js module using a relative path and omitting the optional (.js) file extension.
+
+The remainder of the code in this file sets up a node HTTP server with app set to a specific port (defined in an environment variable or 3000 if the variable isn't defined), and starts listening and reporting server errors and connections. For now you don't really need to know anything else about the code (everything in this file is "boilerplate"), but feel free to review it if you're interested.
+
+#### _app.js_
+
+This file creates an express application object (named app, by convention), sets up the application with various settings and middleware, and then exports the app from the module. The code below shows just the parts of the file that create and export the app object:
+
+```js
+var express = require('express');
+var app = express();
+...
+module.exports = app;
+```
+
+Back in the www entry point file above, it is this module.exports object that is supplied to the caller when this file is imported.
+
+Lets work through the app.js file in detail. First we import some useful node libraries into the file using require(), including express, serve-favicon, morgan, cookie-parser and body-parser that we previously downloaded for our application using NPM; and path, which is a core Node library for parsing file and directory paths.
+
+```js
+var express = require('express');
+var path = require('path');
+var favicon = require('serve-favicon');
+var logger = require('morgan');
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
+```
+
+Then we `require()` modules from our routes directory. These modules/files contain code for handling particular sets of related "routes" (URL paths). When we extend the skeleton application, for example to list all books in the library, we will add a new file for dealing with book-related routes.
+
+```js
+var index = require('./routes/index');
+var users = require('./routes/users');
+```
+
+- Note: At this point we have just imported the module; we haven't actually used its routes yet (this happens just a little bit further down the file).
+
+Next we create the app object using our imported express module, and then use it to set up the view (template) engine. There are two parts to setting up the engine. First we set the 'views' value to specify the folder where the templates will be stored (in this case the sub folder /views). Then we set the 'view engine' value to specify the template library (in this case "pug").
+
+
+```js
+var app = express();
+
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
+```
+
+The next set of functions call `app.use()` to add the middleware libraries into the request handling chain. In addition to the 3rd party libraries we imported previously, we use the `Express.static` middleware to get Express to serve all the static files in the directory `/public` in the project root.
+
+```js
+// uncomment after placing your favicon in /public
+//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+```
+
+Now that all the other middleware is set up, we add our (previously imported) route-handling code to the request handling chain. The imported code will define particular routes for the different parts of the site:
+
+
+```js
+app.use('/', index);
+app.use('/users', users);
+```
+
+- Note: The paths specified above (`'/'` and `'/users'`) are treated as a prefix to routes defined in the imported files. So for example if the imported users module defines a route for `/profile`, you would access that route at `/users/profile`.
+
+The last middleware in the file adds handler methods for errors and HTTP 404 responses.
+
+```js
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  var err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
+
+// error handler
+app.use(function(err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  // render the error page
+  res.status(err.status || 500);
+  res.render('error');
+});
+```
+
+The Express application object (app) is now fully configured. The last step is to add it to the module exports (this is what allows it to be imported by /bin/www).
+
+```js
+module.exports = app;
+```
+
+The route file /routes/users.js is shown below (route files share a similar structure, so we don't need to also show index.js). First it loads the express module, and uses it to get an `express.Router` object. Then it specifies a route on that object, and lastly exports the router from the module (this is what allows the file to be imported into `app.js`).
+
+```js
+var express = require('express');
+var router = express.Router();
+
+/* GET users listing. */
+router.get('/', function(req, res, next) {
+  res.send('respond with a resource');
+});
+
+module.exports = router;
+```
+
+The route defines a callback that will be invoked whenever an HTTP `GET` request with the correct pattern is detected. The matching pattern is the route specified when the module is imported (`'/users'`) plus whatever is defined in this file (`'/'`). In other words, this route will be used when an URL of `/users/` is received.
+
+- Tip: Try this out by running the server with node and visiting the URL in your browser: `http://localhost:3000/users/`. You should see a message: 'respond with a resource'.
+
+One thing of interest above is that the callback function has the third argument `'next'`, and is hence a middleware function rather than a simple route callback. While the code doesn't currently use the `next` argument, it may be useful in the future if you want to add multiple route handlers to the `'/'` route path.
+
+#### Views
+
+The views (templates) are stored in the /views directory (as specified in app.js) and are given the file extension .pug. The method Response.render() is used to render a specified template along with the values of named variables passed in an object, and then send the result as a response. In the code below from /routes/index.js you can see how that route renders a response using the template "index" passing the template variable "title".
+
+```js
+/* GET home page. */
+router.get('/', function(req, res) {
+  res.render('index', { title: 'Express' });
+});
+```
+
+The corresponding template for the above route is given below (index.pug). We'll talk more about the syntax later. All you need to know for now is that the title variable (with value 'Express') is inserted where specified in the template.
+
+```js
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+```
+___
+
+#### Homework
+- 1) See if you can connect our Node+Mongo BA backend to the Vue.js frontend (you should copy the frontend folder to a new location before you start fiddling with it, i.e. `cp -r ba-vue-frontend NEW-FOLDER-PATH`; note you will need to `rm -rf node_modules` and run `npm install` again in the new folder, or all the packages will break)
+- 2) `learnyounode`
+- 3) YouTeach preparation, final project brainstorming
+- 4) *General review*: You know better than us what you need most practice with - revisit old warmups you didn't get to finish (you have the solutions now!), revisit old homework, etc
+
+#### Further Reading
+
+- [NodeJS](https://nodejs.org/docs/latest-v9.x/api/synopsis.html)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://docs.mongodb.com/)
+- [NoSQL vs Relational databases](https://www.youtube.com/watch?v=qI_g07C_Q5I)
