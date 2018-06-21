@@ -11,7 +11,6 @@ ____
 
 - [Collatz](https://github.com/GrantjHanrahan/wdi27-homework/tree/master/warmups/week10/day_04_collatz_js)
 
-___
 
 #### Codealongs
 
