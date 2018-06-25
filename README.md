@@ -50,6 +50,8 @@ Welcome!
     - [Day 04](week_10/wk10_day04.md)
     - [Day 05](week_10/wk10_day05.md)
 
+* [Week 11](week_11/wk011_summary.md)
+    - [Day 01](week_11/wk11_day01.md)
 
 ## Modules
 

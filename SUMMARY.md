@@ -157,6 +157,10 @@
         - Express
         - Singly Linked Lists
 
+* [Week 11](week_11/wk11_summary.md)
+    - [Day 01](week_11/wk11_day01.md)
+    - Node.js Testing
+    - Regular Expressions 
 
 ## Modules
 
