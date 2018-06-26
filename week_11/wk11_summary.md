@@ -2,4 +2,9 @@
 
 - [Day 01](wk11_day01.md)
   - Node.js Testing
-  - Regular Expressions 
+  - Regular Expressions
+- [Day 02](wk11_day02.md)
+  - Regex contd
+  - Recursion
+  - Javascript - Github Search
+    - Webpack

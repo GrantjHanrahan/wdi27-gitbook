@@ -159,8 +159,13 @@
 
 * [Week 11](week_11/wk11_summary.md)
     - [Day 01](week_11/wk11_day01.md)
-    - Node.js Testing
-    - Regular Expressions 
+        - Node.js Testing
+        - Regular Expressions
+    - [Day 02](week_11/wk11_day02.md)
+        - Regex contd
+        - Recursion
+        - Javascript - Github Search
+          - Webpack
 
 ## Modules
 
