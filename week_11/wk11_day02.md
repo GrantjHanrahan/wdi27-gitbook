@@ -25,6 +25,7 @@ ___
 
 ### Recursion
 
+Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration). Recursive algorithms have two cases: a recursive case and base case. Any function that calls itself is recursive.
 
 Create a new folder and add a new ruby file into it.
 
