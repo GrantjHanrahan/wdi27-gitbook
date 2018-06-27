@@ -8,3 +8,6 @@
   - Recursion
   - Javascript - Github Search
     - Webpack
+- [Day 03](wk11_day03.md)
+  - Three.js
+  - Javascript - Github Search contd
