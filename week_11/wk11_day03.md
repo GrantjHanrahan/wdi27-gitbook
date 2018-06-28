@@ -1,4 +1,4 @@
-## Week 11, day 02
+## Week 11, day 03
 
 What we covered today:
 

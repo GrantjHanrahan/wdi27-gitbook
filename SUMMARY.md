@@ -169,6 +169,9 @@
     - [Day 03](week_11/wk11_day03.md)
         - Three.js
         - Javascript - Github Search contd
+    - [Day 04](week_11/wk11_day04.md)
+        - Three.js contd
+        - Algorithms
 
 ## Modules
 
