@@ -178,3 +178,4 @@
   * [Git Repository Setup](modules/git_setup.md)
   * [Heroku](modules/heroku.md)
   * [Cloudinary](modules/cloudinary.md)
+  * [Nokogiri](modules/nokogiri.md)
