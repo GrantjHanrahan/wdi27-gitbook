@@ -55,6 +55,7 @@ Welcome!
     - [Day 02](week_11/wk11_day02.md)
     - [Day 03](week_11/wk11_day03.md)
     - [Day 04](week_11/wk11_day04.md)
+    - [Day 05](week_11/wk11_day05.md)
 
 ## Modules
 

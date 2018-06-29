@@ -172,6 +172,9 @@
     - [Day 04](week_11/wk11_day04.md)
         - Three.js contd
         - Algorithms
+    - [Day 05](week_11/wk11_day05.md)
+        - Websockets, Socket.io
+        - Advanced JS Async
 
 ## Modules
 
