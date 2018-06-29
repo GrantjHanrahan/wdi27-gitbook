@@ -15,8 +15,8 @@ ___
 
 #### Codealongs
 
-- [Tweeteater](https://)
-- [Advanced JS Async](https://)
+- [Tweeteater](https://github.com/textchimp/wdi-27/tree/master/week11/node-websockets-tweetstreamer)
+- [Advanced JS Async](https://github.com/textchimp/wdi-27/tree/master/week11/promises-async-await-fetch)
 
 ___
 
