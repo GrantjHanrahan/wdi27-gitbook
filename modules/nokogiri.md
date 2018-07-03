@@ -1,4 +1,4 @@
-### Nokogiri and Web scraping.
+# Nokogiri
 
 [Nokogiri](http://www.nokogiri.org/) is a really powerful tool that allows us to scrape data from websites by targeting HTML elements and removing the content within.
 
