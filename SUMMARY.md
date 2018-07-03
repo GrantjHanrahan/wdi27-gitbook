@@ -182,3 +182,8 @@
   * [Heroku](modules/heroku.md)
   * [Cloudinary](modules/cloudinary.md)
   * [Nokogiri](modules/nokogiri.md)
+
+
+## Dictionary
+
+  * [Definitions](dictionary/definitions.md)
