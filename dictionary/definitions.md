@@ -113,6 +113,12 @@ An elastic layout is one that uses percentages and ems for widths paired with a 
 
 ____
 
+#### _Encapsulation_
+
+Is  the idea of bundling data and methods that work on that data within one unit, e.g., a class in Java. This concept is also often used to hide the internal representation, or state, of an object from the outside. This is called information hiding. The general idea of this mechanism is simple. If you have an attribute that is not visible from the outside of an object, and bundle it with methods that provide read or write access to it, then you can hide specific information and control access to the internal state of the object.
+
+____
+
 #### _Hoisting_
 
   - Hoisting is Javascript's default behaviour, moving all declared variables to the top of the current scope before they've been assigned values. [Examples here.](https://www.w3schools.com/js/js_hoisting.asp)
@@ -131,9 +137,21 @@ ____
 
 ____
 
+#### _Inheritance_
+
+In object-oriented programming, inheritance enables new objects to take on the properties of existing objects. A class that is used as the basis for inheritance is called a superclass or base class. A class that inherits from a superclass is called a subclass or derived class. The terms parent class and child class are also acceptable terms to use respectively. A child inherits visible properties and methods from its parent while adding additional properties and methods of its own.
+
+____
+
 #### _IP address_
 
   - An Internet Protocol Address is a unique address assigned to any decive on the web. It is the means by which machines locate one another. In much the same way we would use a web address (like www.example.com), machines use IP addresses.
+
+____
+
+#### _Kernel_
+
+Kernel, in computer technologies, is the central part in most computer operating systems for the management of the system's resources and the communication between hardware and software components. As a basic component of an operating system, a kernel provides abstraction layers for hardware, especially for memory, processors and I/O that allows hardware and software to communicate. It also provides software facilities to userland software such as process abstractions, inter-process communication and system calls. Kernel may also mean an essential subset of a programming language or core language, in terms of which other constructs are (or could be) defined.
 
 ____
 
@@ -180,6 +198,14 @@ Persistent elements are items that will appear in the header and footer of every
 your website site. These are the most important elements on the page, including the
 navigation. Most of the time, the action you’re hoping site visitors will take (your
 primary conversion) should be a persistent element
+
+____
+
+#### _Polymorphism_
+
+In a programming language that exhibits polymorphism, objects of classes belonging to the same hierarchical tree (inherited from a common base class) may possess functions bearing the same name, but each having different behaviors.
+
+As an example, assume there is a base class named Animals from which the subclasses Horse, Fish and Bird are derived. Also assume that the Animals class has a function named Move, which is inherited by all subclasses mentioned. With polymorphism, each subclass may have its own way of implementing the function. So, for example, when the Move function is called in an object of the Horse class, the function might respond by displaying trotting on the screen. On the other hand, when the same function is called in an object of the Fish class, swimming might be displayed on the screen. In the case of a Bird object, it may be flying.
 
 ____
 
@@ -253,6 +279,25 @@ ____
 
 ____
 
+#### _Serverless_
+
+Serverless computing is a cloud-computing execution model in which the cloud provider dynamically manages the allocation of machine resources. Pricing is based on the actual amount of resources consumed by an application, rather than on pre-purchased units of capacity. It is a form of utility computing.
+
+Serverless computing still requires servers, hence it's a misnomer. The name "serverless computing" is used because the server management and capacity planning decisions are completely hidden from the developer or operator. Serverless code can be used in conjunction with code deployed in traditional styles, such as microservices. Alternatively, applications can be written to be purely serverless and use no provisioned servers at all.
+____
+
+#### _Service-Oriented Architecture (SOA)_
+
+Service-Oriented Architecture expresses a perspective of software architecture that defines the use of services to support the requirements of software users. In an SOA environment, resources on a network are made available as independent services that can be accessed without knowledge of their underlying platform implementation. SOA is a style of multi-tier computing that helps organizations share logic and data among multiple applications and usage modes. A number of common terms have surfaced in association with structured service and SOA delivery processes:
+  - service-oriented analysis
+  - service-oriented design
+  - service-oriented analysis and design (SOAD)
+  - service-modeling
+  - service-oriented modeling
+  - service-oriented modeling and architecture (SOMA)
+
+____
+
 #### _SOAP_
 
 Stands for Simple Object Access Protocol. It’s an XML-based protocol exchanging information across the internet to allow an application on one site to access an application or database on another site.
@@ -269,6 +314,11 @@ ____
 
     - A value that has no definition. You'll most often see this if you are trying to call or return a variable thai is either out of scope, or spelled incorrectly.
 
+____
+
+#### _Version control_
+
+A component of software configuration management, version control, also known as revision control or source control,[1] is the management of changes to documents, computer programs, large web sites, and other collections of information. Changes are usually identified by a number or letter code, termed the "revision number", "revision level", or simply "revision". For example, an initial set of files is "revision 1". When the first change is made, the resulting set is "revision 2", and so on. Each revision is associated with a timestamp and the person making the change. Revisions can be compared, restored, and with some types of files, merged.
 ____
 
 #### _XHR/XMLHttpRequest_
